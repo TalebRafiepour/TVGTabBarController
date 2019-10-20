@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
                       This cocoapod allows you to create Tabs with beautiful style and customizable properties!
                        DESC
   s.homepage         = "https://github.com/TalebRafiepour/TVGTabBarController"
-  s.screenshots      = "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot1.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot2.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot3.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot4.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot5.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot6.png",
-                       "https://raw.githubusercontent.com/antiguab/BATabBarController/master/readmeAssets/screenshot7.png"
+  s.screenshots      = "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/1.png",
+                       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/2.png",
+                       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/3.png",
+		       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/4.png",
+		       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/5.png",
+                       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/6.png",
+		       "https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png"
   s.license          = 'MIT'
   s.author           = { "Taleb Rafiepour" => "taleb.r75@gmail.com" }
   s.source           = { :git => "https://github.com/TalebRafiepour/TVGTabBarController.git", :tag => s.version.to_s }
