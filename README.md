@@ -14,7 +14,7 @@ Here are some style of demos using `TVGTabBarController`.
 
 | with landscape mode |
 |:---:|
-| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" width="700" height="200" style="transform:rotate(-90deg);"> |
+| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" width="700" height="150"> |
 
 
 ## Installation
