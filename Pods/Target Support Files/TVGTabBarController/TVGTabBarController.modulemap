@@ -1,0 +1,6 @@
+framework module TVGTabBarController {
+  umbrella header "TVGTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,7 @@
 use_frameworks!
-platform :ios, '11.0'
+platform :ios, '13.0'
 
 target 'TVGTabBarControllerDemo' do
   pod 'FlexColorPicker'
+  pod 'TVGTabBarController'
 end

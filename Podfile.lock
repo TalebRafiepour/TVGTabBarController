@@ -1,16 +1,20 @@
 PODS:
   - FlexColorPicker (1.2.1)
+  - TVGTabBarController (1.0)
 
 DEPENDENCIES:
   - FlexColorPicker
+  - TVGTabBarController
 
 SPEC REPOS:
   trunk:
     - FlexColorPicker
+    - TVGTabBarController
 
 SPEC CHECKSUMS:
   FlexColorPicker: 2c6fe41cb33a650d5934fad75ab0e25df4b5af2f
+  TVGTabBarController: 897f882f62627f63340b76fb1a8bc7af23d4027b
 
-PODFILE CHECKSUM: f40fc911f7998489c62cba9349751d4ccaaa5ba7
+PODFILE CHECKSUM: b19c0e0d50c157f10c4262a1fed7b42789846085
 
 COCOAPODS: 1.8.3

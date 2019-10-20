@@ -53,8 +53,6 @@ class ViewController: TVGTabBarController {
 }
 
 
-
-
 extension ViewController: TVGTabBarControllerDelegate {
     func tabBarController(_ tabBarController: TVGTabBarController, didSelect: UIViewController) {
         print("Delegate success!");

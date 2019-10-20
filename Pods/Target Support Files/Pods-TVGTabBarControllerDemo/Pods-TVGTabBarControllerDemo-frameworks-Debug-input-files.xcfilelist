@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-TVGTabBarControllerDemo/Pods-TVGTabBarControllerDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FlexColorPicker/FlexColorPicker.framework
+${BUILT_PRODUCTS_DIR}/TVGTabBarController/TVGTabBarController.framework

@@ -3,120 +3,142 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08E97F093FD27CA98E280AC81FF93B39 /* UIViewWithCommonInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A374098E6803269297E95BF513E9BA /* UIViewWithCommonInit.swift */; };
-		0C28E7EBD564DE7B1938682DE3C857A7 /* AdjustedHitBoxColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EF72BDF7CD114F582D3F2470EEFBE /* AdjustedHitBoxColorControl.swift */; };
-		13750464EE99ABF5E64EF799CC997AB1 /* DefaultColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449375BE1D05620BE76E99E5189F1F9 /* DefaultColorPickerViewController.swift */; };
-		1580A8D848A2A05B2C1271404E3215B7 /* ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EF49162A7D197977556D03085C9C77 /* ColorPickerDelegate.swift */; };
-		28B1FF59E9BC2FC8AC65D9A20B5AB9B8 /* ColorSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4771370598623411274C7EEA47046130 /* ColorSliderControl.swift */; };
-		2A1C5EE75A147370944BBF9F925699EE /* ColorPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAABC4E094E4D1A2CC775F6464EDB63 /* ColorPaletteDelegate.swift */; };
-		3AB43F41A0153C1A8755D3D72FAA7F19 /* ColorPreviewWithHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB19347968F28D52265685A6CE564DD /* ColorPreviewWithHex.swift */; };
-		41424EB32CF2DC22C4D744261ECC8619 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F897155D15E30738878BEB412DC0B9 /* UIColorExtension.swift */; };
-		44B143132FBC437B9F4CEEB23A042164 /* FlexColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 679B16E8E4EDCC34A2B688DF342E7C37 /* FlexColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4715FAB2ED600D5F0B08E52043644C3A /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744197B3BCC9DE09390811E358F672D4 /* ColorPickerController.swift */; };
-		47B8666FC7F8B135D84A0125B25A77BE /* FlexColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 101E2496143ECEEBDA72C5AB05FFBF91 /* FlexColorPicker-dummy.m */; };
-		4929D3D04BD5B7139CAA4C9EB8BC612D /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F6A774277366F081AAF8318B156DA0 /* CGPointExtension.swift */; };
-		4DA5710866BE5F7ECCF53E55B6B98C1E /* FlexColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E7B08B2E6FE1A5942933D5FB2511F7 /* FlexColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53D02986BC81C7FCC641EF96061DC050 /* CircleShapedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73700CEDFE184335CEE817F4E05AAC07 /* CircleShapedView.swift */; };
-		5963EA082733841BABD8BED0B782AB1B /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3492E311EBDE092C84486873F756D179 /* ColorPaletteControl.swift */; };
-		5E24E4415ACE34BD8A30966F11776EC6 /* AbstractColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4699F036DFBD7A9BCB94CB593D28C60 /* AbstractColorControl.swift */; };
-		631B484783D6823DC4D365CB5BD0E0D2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA8CA18B1F011F09CBDC2046B0969F3 /* UIImageExtension.swift */; };
-		6922F588C5D43AB3FB737EA9808497F3 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F28CE0A6432470CC23890AF07B7EE9 /* CGRectExtension.swift */; };
-		721CFE9920A052B16A268DF0FF4CAC05 /* Pods-TVGTabBarControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4EEA8E734112A4B49A47A1F6661B5D /* Pods-TVGTabBarControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74B2704A42C7646A9241EBFD50DF6E6E /* Pods-TVGTabBarControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65AC311867F705E45A0A7CD85B33B24 /* Pods-TVGTabBarControllerDemo-dummy.m */; };
-		756FA672AC8EEA16E2BE12C147921D38 /* ColorPickerThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A21951113976FFB4950D598D9BF60 /* ColorPickerThumbView.swift */; };
-		761D53B233C4BAB09836A2B81187648E /* ColorSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345BB911B5FA1AF0B983C91DAF18E2A2 /* ColorSliderDelegate.swift */; };
-		83550A9D9B8CAAF0080285E4A61E59F7 /* CustomColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA915BC2AD8DFF85B9497515E871EC /* CustomColorPickerViewController.swift */; };
-		8559F79D0E7299B88968FD182DDDE7C3 /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D99F6921F217E51BD52C610FA6ABD /* ColorControl.swift */; };
-		88471101C3A3CD33B1DB441332E07B7D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1CA620065D8D10B1774A3967D3E8B5 /* UIViewExtension.swift */; };
-		8F599931110928DA7553C63A87AC6D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9194A081BDBC079C39D9D48DDFD735B6 /* PaletteAwareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC51FDAA5F361FC9FAD351FE1CAC87BE /* PaletteAwareScrollView.swift */; };
-		973E1638347C627A7EDB6C267193655E /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A974F7414110150FE87BF744E4C1CD0B /* HSBColor.swift */; };
-		A92E7E25AAEDA4D0FF0712A8FF1F5908 /* RectangularHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B1F3FD145CAEE7B2E708A34AF6F4F /* RectangularHSBPaletteDelegate.swift */; };
-		AE7002364AAC1481E965F4F28AE4C037 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BB100F31448EC3EBD41E69FCEB1B3F /* GradientView.swift */; };
-		B28DB11D35D8A6B14F359D8592C4915C /* ComponentSliderDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0007704E6B613B60D6DCA4F462CC032 /* ComponentSliderDelegates.swift */; };
-		B31CEE394CF0023784401884BAD84D3E /* RadialHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D91A60CE426EDF1F8B32A5828046548 /* RadialHSBPaletteDelegate.swift */; };
-		B6E132850F1CC22476C3D660248DFE30 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427357E7DF0EB4297A7CAB7C366F8F0 /* UIImageViewExtension.swift */; };
-		C5D483223A5BD4AABD5FD6F50E285811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CA146D7E064083C3B173E73D777E7F1D /* ColorPickerControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B065BB25E04EF7A1E75F0FB3414C /* ColorPickerControllerProtocol.swift */; };
-		DF54964BF12B93B7769AABF6A63C1A2F /* PaletteControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F9B1E8BA88F41DBE1362B0C102C24A /* PaletteControls.swift */; };
-		E0F44E75A5228B928A643E201E1DF6D1 /* ComponentSliderControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7A0007155EB2B7BD3898AF4D22849 /* ComponentSliderControls.swift */; };
-		FC55A7CC54ACB54328E950856CC495B1 /* ControlWithThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B641C35648B60414EAB102F15976FB0 /* ControlWithThumbView.swift */; };
+		025B76C68395B7BCA39B8D2ED2AE3271 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		08E97F093FD27CA98E280AC81FF93B39 /* UIViewWithCommonInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDA73A7C146492F5BE36F6FCE05785 /* UIViewWithCommonInit.swift */; };
+		0C28E7EBD564DE7B1938682DE3C857A7 /* AdjustedHitBoxColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8E6D2032DEA5B11DFD5D7E5565C7A /* AdjustedHitBoxColorControl.swift */; };
+		0DC38A2917398F9E4D90B6601ABAFE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		13750464EE99ABF5E64EF799CC997AB1 /* DefaultColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF81DAE36AF58A68D00FF66746C34DC /* DefaultColorPickerViewController.swift */; };
+		1580A8D848A2A05B2C1271404E3215B7 /* ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232CE20F6BC39604CA4F433F4EC4DD6F /* ColorPickerDelegate.swift */; };
+		28B1FF59E9BC2FC8AC65D9A20B5AB9B8 /* ColorSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FAE118342A2961CAD8E585ED865BED /* ColorSliderControl.swift */; };
+		2A1C5EE75A147370944BBF9F925699EE /* ColorPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2567F3BC533F0B7C9434DBDC81E89343 /* ColorPaletteDelegate.swift */; };
+		3AB43F41A0153C1A8755D3D72FAA7F19 /* ColorPreviewWithHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42D35453E1DB451041F63582E59803 /* ColorPreviewWithHex.swift */; };
+		410F137DEC8F996B5108C879DCA4AF46 /* TVGTabBarController.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 3E373F4337194A6E2C5CFA73F8F63768 /* TVGTabBarController.podspec */; };
+		41424EB32CF2DC22C4D744261ECC8619 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D2D9BAD5E2DC06BBA2B23E71537FB9 /* UIColorExtension.swift */; };
+		44B143132FBC437B9F4CEEB23A042164 /* FlexColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72224B4BD7A57079F4C879E7EA569F28 /* FlexColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4715FAB2ED600D5F0B08E52043644C3A /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA8F124A6650772D4228C26389CEA9 /* ColorPickerController.swift */; };
+		47B8666FC7F8B135D84A0125B25A77BE /* FlexColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977842222FDB65738D4553542E44B746 /* FlexColorPicker-dummy.m */; };
+		4929D3D04BD5B7139CAA4C9EB8BC612D /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CE2F6B2EE290EB85D9F8E1A99CB2F /* CGPointExtension.swift */; };
+		4DA5710866BE5F7ECCF53E55B6B98C1E /* FlexColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3042739FF8E023BA39265B14D50AB7 /* FlexColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50FD17B0C9F73119A5059E9748EE64AB /* Pods-TVGTabBarControllerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4EEA8E734112A4B49A47A1F6661B5D /* Pods-TVGTabBarControllerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D02986BC81C7FCC641EF96061DC050 /* CircleShapedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF69FCFE5668173045DD97191219639 /* CircleShapedView.swift */; };
+		5963EA082733841BABD8BED0B782AB1B /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA37DD60FE083A8189A100AFF822D1B /* ColorPaletteControl.swift */; };
+		5E23F8F1A1C795612FF72835AF6B56F6 /* TVGTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7E85FFA31CDFA585A0BA7D16AA5DE1 /* TVGTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E24E4415ACE34BD8A30966F11776EC6 /* AbstractColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4849D9D03461FD201348EEA0F680A /* AbstractColorControl.swift */; };
+		631B484783D6823DC4D365CB5BD0E0D2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91591F21633C909AD9268210A21FAD1A /* UIImageExtension.swift */; };
+		6922F588C5D43AB3FB737EA9808497F3 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00B39439CB76CFBD4633BA0158B6151 /* CGRectExtension.swift */; };
+		756FA672AC8EEA16E2BE12C147921D38 /* ColorPickerThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B463BEB465EEAAE9F7962B972222F /* ColorPickerThumbView.swift */; };
+		761D53B233C4BAB09836A2B81187648E /* ColorSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B156E31654E0AFB042837C18803487D1 /* ColorSliderDelegate.swift */; };
+		83550A9D9B8CAAF0080285E4A61E59F7 /* CustomColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E959C660223AFDD0CB2A960F702C9C /* CustomColorPickerViewController.swift */; };
+		8559F79D0E7299B88968FD182DDDE7C3 /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338AB2E65E528969D3D2C2C36BC5F45 /* ColorControl.swift */; };
+		88471101C3A3CD33B1DB441332E07B7D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16FA42084F9D15FAEF64C459E95CC31 /* UIViewExtension.swift */; };
+		8F599931110928DA7553C63A87AC6D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9116129641E81766DEC0B34FFA6C358B /* Pods-TVGTabBarControllerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65AC311867F705E45A0A7CD85B33B24 /* Pods-TVGTabBarControllerDemo-dummy.m */; };
+		9194A081BDBC079C39D9D48DDFD735B6 /* PaletteAwareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802E401B8D9BCB3F77D58A388F826CE /* PaletteAwareScrollView.swift */; };
+		956C15DA6FEF1CFC256705DE57F3EEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		973E1638347C627A7EDB6C267193655E /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF135FC756486840512A8D3E7D13835 /* HSBColor.swift */; };
+		A92E7E25AAEDA4D0FF0712A8FF1F5908 /* RectangularHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DE44119897A5E401D6393F9D0A6A3 /* RectangularHSBPaletteDelegate.swift */; };
+		AE7002364AAC1481E965F4F28AE4C037 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5E7C98A55FDF5FF777F2B375A31ED /* GradientView.swift */; };
+		B28DB11D35D8A6B14F359D8592C4915C /* ComponentSliderDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED0A7205DC90210F83CADCDD457332 /* ComponentSliderDelegates.swift */; };
+		B31CEE394CF0023784401884BAD84D3E /* RadialHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7B408F72EFC86877639448B1EA73B /* RadialHSBPaletteDelegate.swift */; };
+		B6E132850F1CC22476C3D660248DFE30 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0E23AB913972FA40BE60252917DD80 /* UIImageViewExtension.swift */; };
+		CA146D7E064083C3B173E73D777E7F1D /* ColorPickerControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAABBCB1E64DFA87E0AA16F60A3B21 /* ColorPickerControllerProtocol.swift */; };
+		DF54964BF12B93B7769AABF6A63C1A2F /* PaletteControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3251BF0448D68F45343488AA1B1EF3 /* PaletteControls.swift */; };
+		E0E50A74E67DD72F7CC414016E698922 /* TVGTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C41A84EEE18784C4258BEFF12B6574D /* TVGTabBarController-dummy.m */; };
+		E0F44E75A5228B928A643E201E1DF6D1 /* ComponentSliderControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F03A04C684760988B917DD359CA706 /* ComponentSliderControls.swift */; };
+		FC55A7CC54ACB54328E950856CC495B1 /* ControlWithThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71A9AE6DBC56A3BFA65541CEA5341C /* ControlWithThumbView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59515BD8E4CE1EBAB63BC4F4CF84B54A /* PBXContainerItemProxy */ = {
+		19B3DED78F1644D25ECF028BD2460827 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A9A6DFBF33C0809BD9B32C8C8B776E8;
 			remoteInfo = FlexColorPicker;
 		};
+		3D35C0F9AAD0A01DC68675F323D5E41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25FF2B558C64C92E3F44F3884AE4C17;
+			remoteInfo = TVGTabBarController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EF49162A7D197977556D03085C9C77 /* ColorPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerDelegate.swift; path = FlexColorPicker/Classes/ColorPickerDelegate.swift; sourceTree = "<group>"; };
-		0427357E7DF0EB4297A7CAB7C366F8F0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageViewExtension.swift; sourceTree = "<group>"; };
-		0449375BE1D05620BE76E99E5189F1F9 /* DefaultColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultColorPickerViewController.swift; path = FlexColorPicker/Classes/DefaultColorPickerViewController.swift; sourceTree = "<group>"; };
-		101E2496143ECEEBDA72C5AB05FFBF91 /* FlexColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexColorPicker-dummy.m"; sourceTree = "<group>"; };
+		09F03A04C684760988B917DD359CA706 /* ComponentSliderControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderControls.swift; path = FlexColorPicker/Classes/Controls/ComponentSliderControls.swift; sourceTree = "<group>"; };
+		109E800F2227495A448E5F0E9F337D8E /* TVGTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVGTabBarController.xcconfig; sourceTree = "<group>"; };
 		171CB977EE24BBC57E1DAD33D9ECC59F /* Pods-TVGTabBarControllerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVGTabBarControllerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		17F897155D15E30738878BEB412DC0B9 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = FlexColorPicker/Classes/Utilities/UIColorExtension.swift; sourceTree = "<group>"; };
-		1B641C35648B60414EAB102F15976FB0 /* ControlWithThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlWithThumbView.swift; path = FlexColorPicker/Classes/Controls/ControlWithThumbView.swift; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		323A21951113976FFB4950D598D9BF60 /* ColorPickerThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerThumbView.swift; path = FlexColorPicker/Classes/Views/ColorPickerThumbView.swift; sourceTree = "<group>"; };
-		345BB911B5FA1AF0B983C91DAF18E2A2 /* ColorSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorSliderDelegate.swift; sourceTree = "<group>"; };
-		3492E311EBDE092C84486873F756D179 /* ColorPaletteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteControl.swift; path = FlexColorPicker/Classes/Controls/ColorPaletteControl.swift; sourceTree = "<group>"; };
-		3E1EF72BDF7CD114F582D3F2470EEFBE /* AdjustedHitBoxColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustedHitBoxColorControl.swift; path = FlexColorPicker/Classes/Controls/AdjustedHitBoxColorControl.swift; sourceTree = "<group>"; };
+		232CE20F6BC39604CA4F433F4EC4DD6F /* ColorPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerDelegate.swift; path = FlexColorPicker/Classes/ColorPickerDelegate.swift; sourceTree = "<group>"; };
+		2567F3BC533F0B7C9434DBDC81E89343 /* ColorPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorPaletteDelegate.swift; sourceTree = "<group>"; };
+		2C55E1E27B68EC3ED4F61F3C391AC515 /* FlexColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		2EF7B408F72EFC86877639448B1EA73B /* RadialHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RadialHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AED0A7205DC90210F83CADCDD457332 /* ComponentSliderDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderDelegates.swift; path = FlexColorPicker/Classes/ControlDelegates/ComponentSliderDelegates.swift; sourceTree = "<group>"; };
+		3D3251BF0448D68F45343488AA1B1EF3 /* PaletteControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteControls.swift; path = FlexColorPicker/Classes/Controls/PaletteControls.swift; sourceTree = "<group>"; };
+		3E373F4337194A6E2C5CFA73F8F63768 /* TVGTabBarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TVGTabBarController.podspec; path = TVGTabBarController/TVGTabBarController.podspec; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		452B463BEB465EEAAE9F7962B972222F /* ColorPickerThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerThumbView.swift; path = FlexColorPicker/Classes/Views/ColorPickerThumbView.swift; sourceTree = "<group>"; };
 		46096AC7666BD3F29212A9A04AD70DC7 /* Pods-TVGTabBarControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVGTabBarControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4771370598623411274C7EEA47046130 /* ColorSliderControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderControl.swift; path = FlexColorPicker/Classes/Controls/ColorSliderControl.swift; sourceTree = "<group>"; };
-		4E9B1F3FD145CAEE7B2E708A34AF6F4F /* RectangularHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangularHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RectangularHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		4802E401B8D9BCB3F77D58A388F826CE /* PaletteAwareScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteAwareScrollView.swift; path = FlexColorPicker/Classes/Views/PaletteAwareScrollView.swift; sourceTree = "<group>"; };
+		502074BA5463C07CBE4D900B2444D6F0 /* FlexColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexColorPicker-Info.plist"; sourceTree = "<group>"; };
 		55FB8BC5332196A1A6CE54148FCCC267 /* Pods-TVGTabBarControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVGTabBarControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5D91A60CE426EDF1F8B32A5828046548 /* RadialHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RadialHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		59D2D9BAD5E2DC06BBA2B23E71537FB9 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = FlexColorPicker/Classes/Utilities/UIColorExtension.swift; sourceTree = "<group>"; };
+		5BF81DAE36AF58A68D00FF66746C34DC /* DefaultColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultColorPickerViewController.swift; path = FlexColorPicker/Classes/DefaultColorPickerViewController.swift; sourceTree = "<group>"; };
+		5C11031DB697F8FF274243656ACE0BE3 /* TVGTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVGTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		6017F1633A57ECC98AB8614B1070A348 /* Pods_TVGTabBarControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVGTabBarControllerDemo.framework; path = "Pods-TVGTabBarControllerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61A374098E6803269297E95BF513E9BA /* UIViewWithCommonInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewWithCommonInit.swift; path = FlexColorPicker/Classes/Views/UIViewWithCommonInit.swift; sourceTree = "<group>"; };
-		6548184AD0E84CD8E3E9796A93595D5C /* FlexColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexColorPicker.modulemap; sourceTree = "<group>"; };
-		66FA915BC2AD8DFF85B9497515E871EC /* CustomColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomColorPickerViewController.swift; path = FlexColorPicker/Classes/CustomColorPickerViewController.swift; sourceTree = "<group>"; };
-		679B16E8E4EDCC34A2B688DF342E7C37 /* FlexColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		73700CEDFE184335CEE817F4E05AAC07 /* CircleShapedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapedView.swift; path = FlexColorPicker/Classes/Views/CircleShapedView.swift; sourceTree = "<group>"; };
+		6A3042739FF8E023BA39265B14D50AB7 /* FlexColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexColorPicker.h; path = FlexColorPicker/Classes/FlexColorPicker.h; sourceTree = "<group>"; };
+		6AF135FC756486840512A8D3E7D13835 /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = FlexColorPicker/Classes/HSBColor.swift; sourceTree = "<group>"; };
+		72224B4BD7A57079F4C879E7EA569F28 /* FlexColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexColorPicker.framework; path = FlexColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		744197B3BCC9DE09390811E358F672D4 /* ColorPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerController.swift; path = FlexColorPicker/Classes/ColorPickerController.swift; sourceTree = "<group>"; };
-		74F9B1E8BA88F41DBE1362B0C102C24A /* PaletteControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteControls.swift; path = FlexColorPicker/Classes/Controls/PaletteControls.swift; sourceTree = "<group>"; };
+		7C41A84EEE18784C4258BEFF12B6574D /* TVGTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVGTabBarController-dummy.m"; sourceTree = "<group>"; };
 		7C4EEA8E734112A4B49A47A1F6661B5D /* Pods-TVGTabBarControllerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVGTabBarControllerDemo-umbrella.h"; sourceTree = "<group>"; };
-		85F6A774277366F081AAF8318B156DA0 /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = FlexColorPicker/Classes/Utilities/CGPointExtension.swift; sourceTree = "<group>"; };
-		8BC30A9DF1563F8A10CDEA12DCB2F9F8 /* FlexColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		91F28CE0A6432470CC23890AF07B7EE9 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = FlexColorPicker/Classes/Utilities/CGRectExtension.swift; sourceTree = "<group>"; };
-		94ABB1924C295491A6C477D33F12032F /* FlexColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexColorPicker-Info.plist"; sourceTree = "<group>"; };
-		9B5D99F6921F217E51BD52C610FA6ABD /* ColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControl.swift; path = FlexColorPicker/Classes/Controls/ColorControl.swift; sourceTree = "<group>"; };
+		7CC8E6D2032DEA5B11DFD5D7E5565C7A /* AdjustedHitBoxColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustedHitBoxColorControl.swift; path = FlexColorPicker/Classes/Controls/AdjustedHitBoxColorControl.swift; sourceTree = "<group>"; };
+		80CDA73A7C146492F5BE36F6FCE05785 /* UIViewWithCommonInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewWithCommonInit.swift; path = FlexColorPicker/Classes/Views/UIViewWithCommonInit.swift; sourceTree = "<group>"; };
+		87A4849D9D03461FD201348EEA0F680A /* AbstractColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractColorControl.swift; path = FlexColorPicker/Classes/Controls/AbstractColorControl.swift; sourceTree = "<group>"; };
+		8C7E85FFA31CDFA585A0BA7D16AA5DE1 /* TVGTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVGTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		90793B0DFC069742EBD551DF2615EF5A /* TVGTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TVGTabBarController-Info.plist"; sourceTree = "<group>"; };
+		91591F21633C909AD9268210A21FAD1A /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageExtension.swift; sourceTree = "<group>"; };
+		971164C97ACC90649A76BB6B535FC219 /* FlexColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.xcconfig; sourceTree = "<group>"; };
+		977842222FDB65738D4553542E44B746 /* FlexColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexColorPicker-dummy.m"; sourceTree = "<group>"; };
+		98FAE118342A2961CAD8E585ED865BED /* ColorSliderControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderControl.swift; path = FlexColorPicker/Classes/Controls/ColorSliderControl.swift; sourceTree = "<group>"; };
+		99D3768F35B8B7B208568CEACD18133E /* TVGTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TVGTabBarController.framework; path = TVGTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0D8B065BB25E04EF7A1E75F0FB3414C /* ColorPickerControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerControllerProtocol.swift; path = FlexColorPicker/Classes/ColorPickerControllerProtocol.swift; sourceTree = "<group>"; };
-		A4699F036DFBD7A9BCB94CB593D28C60 /* AbstractColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractColorControl.swift; path = FlexColorPicker/Classes/Controls/AbstractColorControl.swift; sourceTree = "<group>"; };
-		A974F7414110150FE87BF744E4C1CD0B /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = FlexColorPicker/Classes/HSBColor.swift; sourceTree = "<group>"; };
-		A9BB100F31448EC3EBD41E69FCEB1B3F /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = FlexColorPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
-		AE1CA620065D8D10B1774A3967D3E8B5 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIViewExtension.swift; sourceTree = "<group>"; };
-		BC51FDAA5F361FC9FAD351FE1CAC87BE /* PaletteAwareScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteAwareScrollView.swift; path = FlexColorPicker/Classes/Views/PaletteAwareScrollView.swift; sourceTree = "<group>"; };
-		D6E7B08B2E6FE1A5942933D5FB2511F7 /* FlexColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexColorPicker.h; path = FlexColorPicker/Classes/FlexColorPicker.h; sourceTree = "<group>"; };
+		9F42D35453E1DB451041F63582E59803 /* ColorPreviewWithHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPreviewWithHex.swift; path = FlexColorPicker/Classes/Controls/ColorPreviewWithHex.swift; sourceTree = "<group>"; };
+		A338AB2E65E528969D3D2C2C36BC5F45 /* ColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControl.swift; path = FlexColorPicker/Classes/Controls/ColorControl.swift; sourceTree = "<group>"; };
+		A5D5E7C98A55FDF5FF777F2B375A31ED /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = FlexColorPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
+		A7E959C660223AFDD0CB2A960F702C9C /* CustomColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomColorPickerViewController.swift; path = FlexColorPicker/Classes/CustomColorPickerViewController.swift; sourceTree = "<group>"; };
+		ABA37DD60FE083A8189A100AFF822D1B /* ColorPaletteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteControl.swift; path = FlexColorPicker/Classes/Controls/ColorPaletteControl.swift; sourceTree = "<group>"; };
+		ACF69FCFE5668173045DD97191219639 /* CircleShapedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapedView.swift; path = FlexColorPicker/Classes/Views/CircleShapedView.swift; sourceTree = "<group>"; };
+		B156E31654E0AFB042837C18803487D1 /* ColorSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorSliderDelegate.swift; sourceTree = "<group>"; };
+		B4CA8F124A6650772D4228C26389CEA9 /* ColorPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerController.swift; path = FlexColorPicker/Classes/ColorPickerController.swift; sourceTree = "<group>"; };
+		B6CAABBCB1E64DFA87E0AA16F60A3B21 /* ColorPickerControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerControllerProtocol.swift; path = FlexColorPicker/Classes/ColorPickerControllerProtocol.swift; sourceTree = "<group>"; };
+		B98CE2F6B2EE290EB85D9F8E1A99CB2F /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = FlexColorPicker/Classes/Utilities/CGPointExtension.swift; sourceTree = "<group>"; };
+		BA71A9AE6DBC56A3BFA65541CEA5341C /* ControlWithThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlWithThumbView.swift; path = FlexColorPicker/Classes/Controls/ControlWithThumbView.swift; sourceTree = "<group>"; };
 		D846E46F6015EAE00812B886EB988A48 /* Pods-TVGTabBarControllerDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVGTabBarControllerDemo-Info.plist"; sourceTree = "<group>"; };
-		DAA7A0007155EB2B7BD3898AF4D22849 /* ComponentSliderControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderControls.swift; path = FlexColorPicker/Classes/Controls/ComponentSliderControls.swift; sourceTree = "<group>"; };
-		DDA8CA18B1F011F09CBDC2046B0969F3 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageExtension.swift; sourceTree = "<group>"; };
-		E0007704E6B613B60D6DCA4F462CC032 /* ComponentSliderDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderDelegates.swift; path = FlexColorPicker/Classes/ControlDelegates/ComponentSliderDelegates.swift; sourceTree = "<group>"; };
+		D8F8E74E7CCD3B882384B9C67CD35677 /* FlexColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexColorPicker.modulemap; sourceTree = "<group>"; };
+		E00B39439CB76CFBD4633BA0158B6151 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = FlexColorPicker/Classes/Utilities/CGRectExtension.swift; sourceTree = "<group>"; };
 		E091C421DD2870170C5D4BBFDA746AFA /* Pods-TVGTabBarControllerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVGTabBarControllerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E16FA42084F9D15FAEF64C459E95CC31 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIViewExtension.swift; sourceTree = "<group>"; };
 		E480A75F95E3A0451E9590F81C17E410 /* Pods-TVGTabBarControllerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVGTabBarControllerDemo.modulemap"; sourceTree = "<group>"; };
-		E833BA360EB26731CF52C4C517B57EB7 /* FlexColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.xcconfig; sourceTree = "<group>"; };
-		EBAABC4E094E4D1A2CC775F6464EDB63 /* ColorPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorPaletteDelegate.swift; sourceTree = "<group>"; };
+		EC5DE44119897A5E401D6393F9D0A6A3 /* RectangularHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangularHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RectangularHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		EF0E23AB913972FA40BE60252917DD80 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageViewExtension.swift; sourceTree = "<group>"; };
 		F65AC311867F705E45A0A7CD85B33B24 /* Pods-TVGTabBarControllerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVGTabBarControllerDemo-dummy.m"; sourceTree = "<group>"; };
+		F7CA41703E7C4AF4CB5522847FC184DB /* TVGTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVGTabBarController.modulemap; sourceTree = "<group>"; };
 		FAAC8B4F2EDD3FAF7EA352F8B0EBEA58 /* Pods-TVGTabBarControllerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVGTabBarControllerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		FEB19347968F28D52265685A6CE564DD /* ColorPreviewWithHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPreviewWithHex.swift; path = FlexColorPicker/Classes/Controls/ColorPreviewWithHex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D009E49AFB8081963AF02D1352B915C /* Frameworks */ = {
+		4D5E8CEFCA9CE7C6B1DAA3558AD7F338 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D483223A5BD4AABD5FD6F50E285811 /* Foundation.framework in Frameworks */,
+				956C15DA6FEF1CFC256705DE57F3EEE4 /* Foundation.framework in Frameworks */,
+				0DC38A2917398F9E4D90B6601ABAFE46 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,29 +150,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDE3EF33FA53B6CD6C7D5ED2C63ED431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025B76C68395B7BCA39B8D2ED2AE3271 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		311AAB17B0C5448D947CDA7314EEAEB2 /* Pods */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B558A3F668B78DE0E41D1C1372F26476 /* FlexColorPicker */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E5821B88C5AA5CDB793E7CA50685177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6376F0056EDFBE8348B1279E2F81CBC0 /* FlexColorPicker */,
+				278F1376DDCD3B5FA0D151B14AD78598 /* TVGTabBarController */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6031BD13E08B6AF0CDE21BD8FA70BB7C /* Support Files */ = {
+		278F1376DDCD3B5FA0D151B14AD78598 /* TVGTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				6548184AD0E84CD8E3E9796A93595D5C /* FlexColorPicker.modulemap */,
-				E833BA360EB26731CF52C4C517B57EB7 /* FlexColorPicker.xcconfig */,
-				101E2496143ECEEBDA72C5AB05FFBF91 /* FlexColorPicker-dummy.m */,
-				94ABB1924C295491A6C477D33F12032F /* FlexColorPicker-Info.plist */,
-				8BC30A9DF1563F8A10CDEA12DCB2F9F8 /* FlexColorPicker-prefix.pch */,
-				679B16E8E4EDCC34A2B688DF342E7C37 /* FlexColorPicker-umbrella.h */,
+				3E373F4337194A6E2C5CFA73F8F63768 /* TVGTabBarController.podspec */,
+				73716F09DE36C044F1F706B4BB5D9E1F /* Support Files */,
+			);
+			name = TVGTabBarController;
+			path = TVGTabBarController;
+			sourceTree = "<group>";
+		};
+		6376F0056EDFBE8348B1279E2F81CBC0 /* FlexColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				87A4849D9D03461FD201348EEA0F680A /* AbstractColorControl.swift */,
+				7CC8E6D2032DEA5B11DFD5D7E5565C7A /* AdjustedHitBoxColorControl.swift */,
+				B98CE2F6B2EE290EB85D9F8E1A99CB2F /* CGPointExtension.swift */,
+				E00B39439CB76CFBD4633BA0158B6151 /* CGRectExtension.swift */,
+				ACF69FCFE5668173045DD97191219639 /* CircleShapedView.swift */,
+				A338AB2E65E528969D3D2C2C36BC5F45 /* ColorControl.swift */,
+				ABA37DD60FE083A8189A100AFF822D1B /* ColorPaletteControl.swift */,
+				2567F3BC533F0B7C9434DBDC81E89343 /* ColorPaletteDelegate.swift */,
+				B4CA8F124A6650772D4228C26389CEA9 /* ColorPickerController.swift */,
+				B6CAABBCB1E64DFA87E0AA16F60A3B21 /* ColorPickerControllerProtocol.swift */,
+				232CE20F6BC39604CA4F433F4EC4DD6F /* ColorPickerDelegate.swift */,
+				452B463BEB465EEAAE9F7962B972222F /* ColorPickerThumbView.swift */,
+				9F42D35453E1DB451041F63582E59803 /* ColorPreviewWithHex.swift */,
+				98FAE118342A2961CAD8E585ED865BED /* ColorSliderControl.swift */,
+				B156E31654E0AFB042837C18803487D1 /* ColorSliderDelegate.swift */,
+				09F03A04C684760988B917DD359CA706 /* ComponentSliderControls.swift */,
+				3AED0A7205DC90210F83CADCDD457332 /* ComponentSliderDelegates.swift */,
+				BA71A9AE6DBC56A3BFA65541CEA5341C /* ControlWithThumbView.swift */,
+				A7E959C660223AFDD0CB2A960F702C9C /* CustomColorPickerViewController.swift */,
+				5BF81DAE36AF58A68D00FF66746C34DC /* DefaultColorPickerViewController.swift */,
+				6A3042739FF8E023BA39265B14D50AB7 /* FlexColorPicker.h */,
+				A5D5E7C98A55FDF5FF777F2B375A31ED /* GradientView.swift */,
+				6AF135FC756486840512A8D3E7D13835 /* HSBColor.swift */,
+				4802E401B8D9BCB3F77D58A388F826CE /* PaletteAwareScrollView.swift */,
+				3D3251BF0448D68F45343488AA1B1EF3 /* PaletteControls.swift */,
+				2EF7B408F72EFC86877639448B1EA73B /* RadialHSBPaletteDelegate.swift */,
+				EC5DE44119897A5E401D6393F9D0A6A3 /* RectangularHSBPaletteDelegate.swift */,
+				59D2D9BAD5E2DC06BBA2B23E71537FB9 /* UIColorExtension.swift */,
+				91591F21633C909AD9268210A21FAD1A /* UIImageExtension.swift */,
+				EF0E23AB913972FA40BE60252917DD80 /* UIImageViewExtension.swift */,
+				E16FA42084F9D15FAEF64C459E95CC31 /* UIViewExtension.swift */,
+				80CDA73A7C146492F5BE36F6FCE05785 /* UIViewWithCommonInit.swift */,
+				D66417993F8D2E9FD6B979B69FC290E1 /* Support Files */,
+			);
+			name = FlexColorPicker;
+			path = FlexColorPicker;
+			sourceTree = "<group>";
+		};
+		73716F09DE36C044F1F706B4BB5D9E1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA41703E7C4AF4CB5522847FC184DB /* TVGTabBarController.modulemap */,
+				109E800F2227495A448E5F0E9F337D8E /* TVGTabBarController.xcconfig */,
+				7C41A84EEE18784C4258BEFF12B6574D /* TVGTabBarController-dummy.m */,
+				90793B0DFC069742EBD551DF2615EF5A /* TVGTabBarController-Info.plist */,
+				5C11031DB697F8FF274243656ACE0BE3 /* TVGTabBarController-prefix.pch */,
+				8C7E85FFA31CDFA585A0BA7D16AA5DE1 /* TVGTabBarController-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FlexColorPicker";
+			path = "../Target Support Files/TVGTabBarController";
 			sourceTree = "<group>";
 		};
 		B0089E3F63C1A66F92552D2B8E30D85D /* Targets Support Files */ = {
@@ -161,81 +251,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B558A3F668B78DE0E41D1C1372F26476 /* FlexColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				A4699F036DFBD7A9BCB94CB593D28C60 /* AbstractColorControl.swift */,
-				3E1EF72BDF7CD114F582D3F2470EEFBE /* AdjustedHitBoxColorControl.swift */,
-				85F6A774277366F081AAF8318B156DA0 /* CGPointExtension.swift */,
-				91F28CE0A6432470CC23890AF07B7EE9 /* CGRectExtension.swift */,
-				73700CEDFE184335CEE817F4E05AAC07 /* CircleShapedView.swift */,
-				9B5D99F6921F217E51BD52C610FA6ABD /* ColorControl.swift */,
-				3492E311EBDE092C84486873F756D179 /* ColorPaletteControl.swift */,
-				EBAABC4E094E4D1A2CC775F6464EDB63 /* ColorPaletteDelegate.swift */,
-				744197B3BCC9DE09390811E358F672D4 /* ColorPickerController.swift */,
-				A0D8B065BB25E04EF7A1E75F0FB3414C /* ColorPickerControllerProtocol.swift */,
-				03EF49162A7D197977556D03085C9C77 /* ColorPickerDelegate.swift */,
-				323A21951113976FFB4950D598D9BF60 /* ColorPickerThumbView.swift */,
-				FEB19347968F28D52265685A6CE564DD /* ColorPreviewWithHex.swift */,
-				4771370598623411274C7EEA47046130 /* ColorSliderControl.swift */,
-				345BB911B5FA1AF0B983C91DAF18E2A2 /* ColorSliderDelegate.swift */,
-				DAA7A0007155EB2B7BD3898AF4D22849 /* ComponentSliderControls.swift */,
-				E0007704E6B613B60D6DCA4F462CC032 /* ComponentSliderDelegates.swift */,
-				1B641C35648B60414EAB102F15976FB0 /* ControlWithThumbView.swift */,
-				66FA915BC2AD8DFF85B9497515E871EC /* CustomColorPickerViewController.swift */,
-				0449375BE1D05620BE76E99E5189F1F9 /* DefaultColorPickerViewController.swift */,
-				D6E7B08B2E6FE1A5942933D5FB2511F7 /* FlexColorPicker.h */,
-				A9BB100F31448EC3EBD41E69FCEB1B3F /* GradientView.swift */,
-				A974F7414110150FE87BF744E4C1CD0B /* HSBColor.swift */,
-				BC51FDAA5F361FC9FAD351FE1CAC87BE /* PaletteAwareScrollView.swift */,
-				74F9B1E8BA88F41DBE1362B0C102C24A /* PaletteControls.swift */,
-				5D91A60CE426EDF1F8B32A5828046548 /* RadialHSBPaletteDelegate.swift */,
-				4E9B1F3FD145CAEE7B2E708A34AF6F4F /* RectangularHSBPaletteDelegate.swift */,
-				17F897155D15E30738878BEB412DC0B9 /* UIColorExtension.swift */,
-				DDA8CA18B1F011F09CBDC2046B0969F3 /* UIImageExtension.swift */,
-				0427357E7DF0EB4297A7CAB7C366F8F0 /* UIImageViewExtension.swift */,
-				AE1CA620065D8D10B1774A3967D3E8B5 /* UIViewExtension.swift */,
-				61A374098E6803269297E95BF513E9BA /* UIViewWithCommonInit.swift */,
-				6031BD13E08B6AF0CDE21BD8FA70BB7C /* Support Files */,
-			);
-			name = FlexColorPicker;
-			path = FlexColorPicker;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				311AAB17B0C5448D947CDA7314EEAEB2 /* Pods */,
-				D2650A801046818AE1E8AC4195A9C509 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1E5821B88C5AA5CDB793E7CA50685177 /* Pods */,
+				D0622C7456FA6C2C0292288A8DCFFA8F /* Products */,
 				B0089E3F63C1A66F92552D2B8E30D85D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D2650A801046818AE1E8AC4195A9C509 /* Products */ = {
+		D0622C7456FA6C2C0292288A8DCFFA8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */,
 				6017F1633A57ECC98AB8614B1070A348 /* Pods_TVGTabBarControllerDemo.framework */,
+				99D3768F35B8B7B208568CEACD18133E /* TVGTabBarController.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D66417993F8D2E9FD6B979B69FC290E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8F8E74E7CCD3B882384B9C67CD35677 /* FlexColorPicker.modulemap */,
+				971164C97ACC90649A76BB6B535FC219 /* FlexColorPicker.xcconfig */,
+				977842222FDB65738D4553542E44B746 /* FlexColorPicker-dummy.m */,
+				502074BA5463C07CBE4D900B2444D6F0 /* FlexColorPicker-Info.plist */,
+				2C55E1E27B68EC3ED4F61F3C391AC515 /* FlexColorPicker-prefix.pch */,
+				72224B4BD7A57079F4C879E7EA569F28 /* FlexColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexColorPicker";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E8F1C3C4E4CA6CA987343E98383F4D89 /* Pods-TVGTabBarControllerDemo */ = {
@@ -258,11 +315,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		478D30A379B026B76908D7D13B936824 /* Headers */ = {
+		150547AB685EE8C16BAB0CED4D31D02D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721CFE9920A052B16A268DF0FF4CAC05 /* Pods-TVGTabBarControllerDemo-umbrella.h in Headers */,
+				50FD17B0C9F73119A5059E9748EE64AB /* Pods-TVGTabBarControllerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EAA66DCC50FEEAD78990199517D993 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E23F8F1A1C795612FF72835AF6B56F6 /* TVGTabBarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,19 +361,38 @@
 			productReference = 741F9D3943FF7542B04631B29216270F /* FlexColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D92AAF07F1D434A45E501CB4406510EC /* Pods-TVGTabBarControllerDemo */ = {
+		B25FF2B558C64C92E3F44F3884AE4C17 /* TVGTabBarController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 800B5612869119772D9AA2D37B71BF20 /* Build configuration list for PBXNativeTarget "Pods-TVGTabBarControllerDemo" */;
+			buildConfigurationList = A0CBA6A6963EE7C384B13D2F5EBF6C28 /* Build configuration list for PBXNativeTarget "TVGTabBarController" */;
 			buildPhases = (
-				478D30A379B026B76908D7D13B936824 /* Headers */,
-				8D548767C694F9D2248E468A69979B53 /* Sources */,
-				7D009E49AFB8081963AF02D1352B915C /* Frameworks */,
-				3BE7C0A7CE79E769C6B5D7E646D7C42A /* Resources */,
+				71EAA66DCC50FEEAD78990199517D993 /* Headers */,
+				003BE3E05C114F1F43C2DBFAA3469594 /* Sources */,
+				4D5E8CEFCA9CE7C6B1DAA3558AD7F338 /* Frameworks */,
+				32CD7C19D1B6A0947074AAB4FEEFDC43 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59C8DBA90BCE2013B894DAE3AD71C55A /* PBXTargetDependency */,
+			);
+			name = TVGTabBarController;
+			productName = TVGTabBarController;
+			productReference = 99D3768F35B8B7B208568CEACD18133E /* TVGTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D92AAF07F1D434A45E501CB4406510EC /* Pods-TVGTabBarControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5217EF5B028572FD0EA01BF7C70039B6 /* Build configuration list for PBXNativeTarget "Pods-TVGTabBarControllerDemo" */;
+			buildPhases = (
+				150547AB685EE8C16BAB0CED4D31D02D /* Headers */,
+				DC9E39778161355340E606DBA7FB7987 /* Sources */,
+				FDE3EF33FA53B6CD6C7D5ED2C63ED431 /* Frameworks */,
+				DB76E947DD5920DA6BDBDAA322415E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08F8E3E7AEDEE449250C28D1D0269B49 /* PBXTargetDependency */,
+				C51E1EC7E4554F9FD76E264063804F75 /* PBXTargetDependency */,
 			);
 			name = "Pods-TVGTabBarControllerDemo";
 			productName = "Pods-TVGTabBarControllerDemo";
@@ -325,19 +409,20 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D2650A801046818AE1E8AC4195A9C509 /* Products */;
+			productRefGroup = D0622C7456FA6C2C0292288A8DCFFA8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */,
 				D92AAF07F1D434A45E501CB4406510EC /* Pods-TVGTabBarControllerDemo */,
+				B25FF2B558C64C92E3F44F3884AE4C17 /* TVGTabBarController */,
 			);
 		};
 /* End PBXProject section */
@@ -350,7 +435,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BE7C0A7CE79E769C6B5D7E646D7C42A /* Resources */ = {
+		32CD7C19D1B6A0947074AAB4FEEFDC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB76E947DD5920DA6BDBDAA322415E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +452,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		003BE3E05C114F1F43C2DBFAA3469594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E50A74E67DD72F7CC414016E698922 /* TVGTabBarController-dummy.m in Sources */,
+				410F137DEC8F996B5108C879DCA4AF46 /* TVGTabBarController.podspec in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		391FB1B88857CE6C14F4AEF8E00A0995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,27 +500,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D548767C694F9D2248E468A69979B53 /* Sources */ = {
+		DC9E39778161355340E606DBA7FB7987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B2704A42C7646A9241EBFD50DF6E6E /* Pods-TVGTabBarControllerDemo-dummy.m in Sources */,
+				9116129641E81766DEC0B34FFA6C358B /* Pods-TVGTabBarControllerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59C8DBA90BCE2013B894DAE3AD71C55A /* PBXTargetDependency */ = {
+		08F8E3E7AEDEE449250C28D1D0269B49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FlexColorPicker;
 			target = 9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */;
-			targetProxy = 59515BD8E4CE1EBAB63BC4F4CF84B54A /* PBXContainerItemProxy */;
+			targetProxy = 19B3DED78F1644D25ECF028BD2460827 /* PBXContainerItemProxy */;
+		};
+		C51E1EC7E4554F9FD76E264063804F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TVGTabBarController;
+			target = B25FF2B558C64C92E3F44F3884AE4C17 /* TVGTabBarController */;
+			targetProxy = 3D35C0F9AAD0A01DC68675F323D5E41F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		257497152829C177993B5EC99C1D227A /* Release */ = {
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -467,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,7 +588,7 @@
 		};
 		3EEF4D3FED7BEBB4B327D0E96242099D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E833BA360EB26731CF52C4C517B57EB7 /* FlexColorPicker.xcconfig */;
+			baseConfigurationReference = 971164C97ACC90649A76BB6B535FC219 /* FlexColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -515,7 +622,7 @@
 			};
 			name = Release;
 		};
-		52ED11D93EFEF64978472EB878D79F7E /* Debug */ = {
+		4BECE4F3E45A2D7951AF8FFACE7A3522 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55FB8BC5332196A1A6CE54148FCCC267 /* Pods-TVGTabBarControllerDemo.debug.xcconfig */;
 			buildSettings = {
@@ -532,7 +639,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVGTabBarControllerDemo/Pods-TVGTabBarControllerDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,7 +660,115 @@
 			};
 			name = Debug;
 		};
-		5D49411A9BD169A2B69B73A4BEDD1B25 /* Release */ = {
+		6E79A7882F86515B5EFD94F14A0E8D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109E800F2227495A448E5F0E9F337D8E /* TVGTabBarController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TVGTabBarController/TVGTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TVGTabBarController/TVGTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TVGTabBarController/TVGTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = TVGTabBarController;
+				PRODUCT_NAME = TVGTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7485471DD32C2BC592E7C860F0298941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109E800F2227495A448E5F0E9F337D8E /* TVGTabBarController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TVGTabBarController/TVGTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TVGTabBarController/TVGTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TVGTabBarController/TVGTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = TVGTabBarController;
+				PRODUCT_NAME = TVGTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0674FEEC31CDEB50B7A4CDBF8D5DDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971164C97ACC90649A76BB6B535FC219 /* FlexColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D3932050FAE56DF2E431264ED39068 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46096AC7666BD3F29212A9A04AD70DC7 /* Pods-TVGTabBarControllerDemo.release.xcconfig */;
 			buildSettings = {
@@ -570,7 +785,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TVGTabBarControllerDemo/Pods-TVGTabBarControllerDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -592,7 +807,7 @@
 			};
 			name = Release;
 		};
-		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -643,7 +858,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -656,58 +871,32 @@
 			};
 			name = Debug;
 		};
-		E0674FEEC31CDEB50B7A4CDBF8D5DDEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E833BA360EB26731CF52C4C517B57EB7 /* FlexColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
-				PRODUCT_MODULE_NAME = FlexColorPicker;
-				PRODUCT_NAME = FlexColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
-				257497152829C177993B5EC99C1D227A /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		800B5612869119772D9AA2D37B71BF20 /* Build configuration list for PBXNativeTarget "Pods-TVGTabBarControllerDemo" */ = {
+		5217EF5B028572FD0EA01BF7C70039B6 /* Build configuration list for PBXNativeTarget "Pods-TVGTabBarControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52ED11D93EFEF64978472EB878D79F7E /* Debug */,
-				5D49411A9BD169A2B69B73A4BEDD1B25 /* Release */,
+				4BECE4F3E45A2D7951AF8FFACE7A3522 /* Debug */,
+				E7D3932050FAE56DF2E431264ED39068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CBA6A6963EE7C384B13D2F5EBF6C28 /* Build configuration list for PBXNativeTarget "TVGTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7485471DD32C2BC592E7C860F0298941 /* Debug */,
+				6E79A7882F86515B5EFD94F14A0E8D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
