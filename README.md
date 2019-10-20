@@ -6,15 +6,15 @@ Here are some style of demos using `TVGTabBarController`.
 
 | default style | With no tilte | pointerStyle => Line |
 |:---:|:---:|:---:|
-| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/1.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/2.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/3.png" width="200"> 
+| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/1.png" width="350"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/2.png" width="350"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/3.png" width="350"> 
 
 | change attrs colors | change attrs colors | change attrs colors |
 |:---:|:---:|:---:|
-| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/4.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/5.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/6.png" width="200"> 
+| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/4.png" width="350"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/5.png" width="350"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/6.png" width="350"> 
 
 | with landscape mode |
 |:---:|
-| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" width="200"> |
+| <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" width="700" height="100" data-rotate="-90"> |
 
 
 ## Installation
