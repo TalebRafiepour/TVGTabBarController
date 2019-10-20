@@ -16,6 +16,13 @@ Here are some style of demos using `TVGTabBarController`.
 |:---:|
 | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" height="700"> |
 
+<<<<<<< HEAD
+=======
+###  gif
+
+<img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/tvg-demo.gif" width="350">
+
+>>>>>>> origin/master
 
 ## Installation
 ###  CocoaPods
@@ -95,3 +102,11 @@ extension ViewController: TVGTabBarControllerDelegate {
 
 ```
 
+<<<<<<< HEAD
+=======
+## 📄 License
+
+TVGTabBarController is released under the MIT license.
+See [LICENSE](./LICENSE) for details.
+
+>>>>>>> origin/master
