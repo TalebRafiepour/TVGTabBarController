@@ -5,13 +5,15 @@ beautiful TabBar with custom styles and animations
 Here are some style of demos using `TVGTabBarController`.
 
 | default style | With no tilte | pointerStyle => Line |
-| change attrs colors | change attrs colors | change attrs colors |
-| with landscape mode |
 |:---:|:---:|:---:|
-|:---:|:---:|:---:|
-|:---:|
 | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/1.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/2.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/3.png" width="200"> 
+
+| change attrs colors | change attrs colors | change attrs colors |
+|:---:|:---:|:---:|
 | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/4.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/5.png" width="200"> | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/6.png" width="200"> 
+
+| with landscape mode |
+|:---:|
 | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" width="200"> |
 
 
