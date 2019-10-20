@@ -16,6 +16,10 @@ Here are some style of demos using `TVGTabBarController`.
 |:---:|
 | <img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/7.png" height="700"> |
 
+###  gif
+
+<img src="https://github.com/TalebRafiepour/TVGTabBarController/blob/master/screenshots/tvg-demo.gif" width="350">
+
 
 ## Installation
 ###  CocoaPods
